@@ -1,0 +1,232 @@
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+    height: 100%;
+    margin:0;
+    padding:0;
+
+}
+
+*, *::before, *::after {
+    box-sizing: inherit; 
+
+}
+
+*{
+    text-align: center;
+}
+
+:root{
+    --strongcyan:hsl(171, 66%, 44%);
+    --ltblue:hsl(233, 100%, 69%);
+    --dkgrayblue:hsl(212, 10%, 33%);
+    --grayblue:hsl(202, 11%, 66%);
+    --grayfooter:rgb(245,246,248);
+}
+
+main{
+    margin:0;
+    padding-top:120px;
+    padding-left:33px;
+    padding-right:33px;
+}
+
+body{
+    background-image:url(/images/bg-header-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0;
+    font-size: 18px; 
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1{
+    font-size: 1.85rem;
+    color:var(--dkgrayblue)
+}
+
+h2{
+    font-size: 1.6rem;
+    color:var(--dkgrayblue);
+}
+
+p{
+    font-size: 0.899em;
+    font-weight: 400;
+    color:var(--grayblue);
+    line-height: 1.7em;
+
+}
+.container-1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-1-1 h1{
+    margin-top:60px;
+    margin-bottom: 20px;
+}
+
+.text-1-1 p{
+    margin-bottom:50px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.b{
+    width: 315px;
+    height: 55px;
+    border-radius: 30px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size:18px;
+    color:white;
+    border:0;
+ 
+}
+
+.ios{
+    margin-bottom:25px;
+    background-color: var(--strongcyan);
+    box-shadow: 0 2px 1px hsl(171, 66%, 30%);
+}
+
+.mac{
+    background-color: var(--ltblue);
+    box-shadow: 0 2px 1px hsl(233, 54%, 55%);
+}
+
+.text-1-2 h1{
+    margin-top:120px;
+    margin-bottom: 30px;
+}
+
+.container-2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul{
+    list-style: none;
+    padding:0;
+}
+
+.text-2-1 h2{
+    margin-top: 60px
+}
+.container-3{
+    margin-top: 120px;
+
+}
+
+.container-3 h1{ 
+    margin:0;
+    margin-bottom: 30px;
+}
+
+.img-devices{
+    margin-top: 50px;
+}
+
+.container-4{
+    margin-top: 50px;
+}
+
+.box-4{
+    display: grid;
+    gap:80px;
+}
+
+.text-4{
+    margin-bottom: 80px;
+}
+.companies{
+    padding:0 70px;
+    margin-top:100px;
+    display: grid;
+    gap:60px;
+}
+
+.container-5{
+    margin-top: 120px;
+    margin-bottom: 150px;
+
+}
+
+.container-5 p{
+    margin-top: 30px;
+    margin-bottom:40px
+}
+
+footer{
+    background-color: var(--grayfooter);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:50px 0;
+}
+.footer-logo{
+    width: 60px;
+    height: 60px;
+
+}
+
+footer ul{
+    font-size: 1em;
+    margin-top:35px;
+    margin-bottom: 0;
+}
+
+footer ul li:first-child{
+    margin-bottom: 35px;
+}
+
+footer a{
+    text-decoration: none;
+    color:var(--dkgrayblue)
+}
+
+a:hover{
+    color:var(--strongcyan);
+}
+
+.social{
+    margin-top:35px;
+}
+
+.social ul{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+}
+
+i{
+    font-size:30px;
+    color:var(--dkgrayblue)
+}
+
+i:hover{
+    color:var(--strongcyan);
+}
+
+.ios:hover{
+    box-shadow: 0 3px 8px hsl(171, 65%, 48%);
+}
+
+.mac:hover{
+    box-shadow: 0 3px 8px rgb(100, 118, 252);
+}
